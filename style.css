@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}  
+
+.grid{
+    margin-left: 200px;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns:repeat(3,200px);
+    grid-template-rows: repeat(3,200px);
+    grid-gap:20px;
+}
+.container{
+    width: 100px;
+    height: 100px;
+    
+}
+img{
+    width: 10fr;
+    height: 10fr;
+}
+
+.flowers{
+    font-size: 37px;
+    position: absolute;
+    top: 100px;
+    left: 270px;
+    font-weight: 700;
+    background: linear-gradient(35deg, red,blue);
+    -webkit-background-clip: text;
+    color: transparent;
+}
